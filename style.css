@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}    
+
+section{
+
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    scroll-snap-align: center;
+}
+
+
+nav{
+    padding: 5px 10px;
+
+    display: flex;
+    justify-content: space-between;
+    
+
+
+}
+
+ul li{
+    font-size: 20px;
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+    padding-top: 15px;
+    cursor: pointer;
+}
+
+.logo{
+    font-size: 30px;
+    letter-spacing: 10px;
+    cursor: pointer;
+}
+.sec1{
+    background-image: url('Model\ y.jpg');
+    color: white;
+}
+.sec2{
+    background-image: url('model\ car\ 3.jpg');
+    color: white;
+}
+.sec3{
+    background-image: url('model\ x.jpg');
+    color: white;
+}
+.sec4{
+    background-image: url('model\ s.jpg');
+    color: white;
+}
+.sec5{
+    background-image: url('image5.jpg');
+}
+.sec6{
+    background-image: url('Solar\ panel.jpg');
+    color: white;
+}
+.sec7{
+    background-image: url('Solar\ roof\ .jpg');
+    color: white;
+}
+.sec8{
+    background-image: url('model\ powerwall.jpg');
+    color: white;
+}
+.sec9{
+    background-image: url('Accessories.jpg');
+}
+
+
+.name{
+    font-size: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 23rem;
+    z-index: 1;
+}
+button{
+    padding: 0px 40px;
+    line-height: 5px;
+    height: 40px;
+    letter-spacing: 5px;
+    font-size: 1rem;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.button{
+    display: flex;
+    gap:2rem
+}
+
+.blue{
+    background-color: blue;
+    color: white;
+}
+.click{
+    color: white;
+    font-size: 20px;
+}
+.click1{
+    color: white;
+}
